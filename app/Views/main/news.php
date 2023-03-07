@@ -70,7 +70,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav mx-auto py-0">
-                <a href="#" class="nav-item nav-link">Home</a>
+                <a href="<?=base_url()?>" class="nav-item nav-link">Home</a>
                 <a href="<?=base_url('gtntv_news')?>" class="nav-item nav-link active">News</a>
                 <a href="<?=base_url('gtntv_shows')?>" class="nav-item nav-link">Tv shows</a>
                 <a href="#" class="nav-item nav-link">Sports</a>

@@ -105,10 +105,10 @@
             <div class="row g-5">
                 <div class="col-lg-4 col-md-6">
                     <div class="mb-3">
-                        <h6 class="text-primary text-uppercase">Services</h6>
+                        <h6 class="text-primary text-uppercase">Our Prorammes</h6>
                        
                     </div>
-                    <p class="mb-4">Tempor erat elitr at rebum at at clita. Diam dolor diam ipsum et tempor</p>
+                    <p class="mb-4"> Enjoy our tv shows with..</p>
                     <a href="" class="btn btn-primary py-md-3 px-md-5">Contact Us</a>
                 </div>
                 <div class="col-lg-4 col-md-6">

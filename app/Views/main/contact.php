@@ -109,22 +109,22 @@
                         <form method="POST" action="<?=base_url('contacts/us')?>">
                             <div class="row g-3">
                                 <div class="col-6">
-                                    <input type="text" class="form-control bg-light border-0 px-4" placeholder="Your Name" style="height: 55px;" required>
+                                    <input type="text" class="form-control bg-light border-0 px-4" placeholder="Your Name" name="name" style="height: 55px;" required>
                                 </div>
                                 <div class="col-6">
                                     <input type="email" class="form-control bg-light border-0 px-4" name="email" placeholder="Your Email" style="height: 55px;" required>
                                 </div>
                                 <div class="col-12">
-                                    <input type="text" class="form-control bg-light border-0 px-4" placeholder="Subject" style="height: 55px;" required>
+                                    <input type="text" class="form-control bg-light border-0 px-4" name="subject" placeholder="Subject" style="height: 55px;" required>
                                 </div>
                                 <div class="col-12">
-                                    <textarea class="form-control bg-light border-0 px-4 py-3" rows="2" placeholder="Message"></textarea>
+                                    <textarea class="form-control bg-light border-0 px-4 py-3" name="msg" rows="2" placeholder="Message"></textarea>
                                 </div>
                                 <div class="col-12">
                                     <button class="btn btn-secondary w-100 py-3" type="submit">Send Message</button>
                                 </div>
                             </div>
-                        </form>
+                        </forsm>
                     </div>
                 </div>
                 <div class="col-lg-5">
