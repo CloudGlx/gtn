@@ -36,7 +36,8 @@ $routes->get('/', 'Home::index');
 $routes->add('contact_us','Home::contactusView');
 $routes->add('contacts/us','Home::contactusLogic');
 $routes->add('gtntv/news_logic','Home::newslogic');
-$routes->add('gtntv/news','Home::news');
+$routes->add('gtntv_shows','Home::tvshows');
+$routes->add('gtntv_news','Home::gtnnews');
 /*
  * --------------------------------------------------------------------
  * Additional Routing

@@ -18,4 +18,12 @@ class Home extends BaseController
         
 
     }
+
+    public function tvshows(){
+        return view('main/shows');
+ }
+
+ public function gtnnews(){
+    return view('main/news');
+ }
 }

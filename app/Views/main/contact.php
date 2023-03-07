@@ -35,8 +35,8 @@
         <div class="row gx-5 py-3 align-items-center">
             <div class="col-lg-3">
                 <div class="d-flex align-items-center justify-content-start">
-                   <a href="tel:0742606195"> <i class="bi bi-phone-vibrate fs-1 text-primary me-2"></i></a>
-                    <h3 class="mb-0"> 0742606195</h3>
+                <a href="tel:+254725737228"><i class="bi bi-phone-vibrate fs-1 text-primary me-2"></i> </a>
+                   <h3 class="mb-0"> 0725737228</h3>
                 </div>
             </div>
             <div class="col-lg-6">
@@ -70,9 +70,9 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav mx-auto py-0">
                 <a href="<?=base_url('')?>" class="nav-item nav-link">Home</a>
-                <a href="#" class="nav-item nav-link">About</a>
-                <a href="#" class="nav-item nav-link">Service</a>
-                <a href="#" class="nav-item nav-link">Product</a>
+                <a href="<?=base_url('gtntv_news')?>" class="nav-item nav-link">NEWS</a>
+                <a href="<?=base_url('gtntv_shows')?>" class="nav-item nav-link">TV SHOWS</a>
+                <a href="#" class="nav-item nav-link">SPORTS</a>
              
                 <a href="#" class="nav-item nav-link active">Contact</a>
             </div>
@@ -82,7 +82,7 @@
 
 
     <!-- Hero Start -->
-    <div class="container-fluid bg-primary py-5 bg-hero mb-5">
+    <div class="container-fluid bg-primary py-2 bg-hero mb-5">
         <div class="container py-5">
             <div class="row justify-content-start">
                 <div class="col-lg-8 text-center text-lg-start">
@@ -97,7 +97,7 @@
 
 
     <!-- Contact Start -->
-    <div class="container-fluid py-5">
+    <div class="container-fluid py-4">
         <div class="container">
             <div class="mx-auto text-center mb-5" style="max-width: 500px;">
                 <h6 class="text-primary text-uppercase">Contact Us</h6>
@@ -106,13 +106,13 @@
             <div class="row g-0">
                 <div class="col-lg-7">
                     <div class="bg-primary h-100 p-5">
-                        <form method="POST" action="">
+                        <form method="POST" action="<?=base_url('contacts/us')?>">
                             <div class="row g-3">
                                 <div class="col-6">
                                     <input type="text" class="form-control bg-light border-0 px-4" placeholder="Your Name" style="height: 55px;" required>
                                 </div>
                                 <div class="col-6">
-                                    <input type="email" class="form-control bg-light border-0 px-4" placeholder="Your Email" style="height: 55px;" required>
+                                    <input type="email" class="form-control bg-light border-0 px-4" name="email" placeholder="Your Email" style="height: 55px;" required>
                                 </div>
                                 <div class="col-12">
                                     <input type="text" class="form-control bg-light border-0 px-4" placeholder="Subject" style="height: 55px;" required>
@@ -154,7 +154,7 @@
                             </div>
                             <div class="ps-3">
                                 <h5 class="text-white">Call Us</h5>
-                                <span class="text-white">+254 742 606 195</span>
+                                <span class="text-white">+254 725 737 228</span>
                             </div>
                         </div>
                     </div>

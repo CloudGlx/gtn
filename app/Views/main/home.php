@@ -35,7 +35,7 @@
         <div class="row gx-5 py-3 align-items-center">
             <div class="col-lg-3">
                 <div class="d-flex align-items-center justify-content-start">
-                    <i class="bi bi-phone-vibrate fs-1 text-primary me-2"></i>
+                   <a href="tel:+254725737228"><i class="bi bi-phone-vibrate fs-1 text-primary me-2"></i> </a>
                     <h3 class="mb-0"> 0725737228</h3>
                 </div>
             </div>
@@ -71,8 +71,8 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav mx-auto py-0">
                 <a href="#" class="nav-item nav-link active">Home</a>
-                <a href="#" class="nav-item nav-link">News</a>
-                <a href="#" class="nav-item nav-link">Events</a>
+                <a href="<?=base_url('gtntv_news')?>" class="nav-item nav-link">News</a>
+                <a href="<?=base_url('gtntv_shows')?>" class="nav-item nav-link">Tv shows</a>
                 <a href="#" class="nav-item nav-link">Sports</a>
              
                 <a href="<?=base_url('contact_us')?>" class="nav-item nav-link">Contact</a>
@@ -141,13 +141,13 @@
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="<?=base_url()?>/public/assets/lib/easing/easing.min.js"></script>
+    <script src="<?=base_url()?>/public/assets/lib/waypoints/waypoints.min.js"></script>
+    <script src="<?=base_url()?>/public/assets/lib/counterup/counterup.min.js"></script>
+    <script src="<?=base_url()?>/public/assets/lib/owlcarousel/owl.carousel.min.js"></script>
 
     <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    <script src="<?=base_url()?>/public/assets/js/main.js"></script>
 </body>
 
 </html>
