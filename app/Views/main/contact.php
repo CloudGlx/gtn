@@ -3,13 +3,13 @@
 
 <head>
     <meta charset="utf-8">
-    <title>GTN Tv | Contacts</title>
+    <title>GTN tv | Contact Us</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free HTML Templates" name="keywords">
-    <meta content="Free HTML Templates" name="description">
+    <meta content="GTN TV - Home of gifts and talents" name="gtntv,tv,othayatv,livetv,tvstream,gtntv kenya, gtnkenya, best kenyan tv, best kikuyu tv, tv of talents, home of gifts, home of talents">
+    <meta content="GTN TV - Home of gifts and talents" name="GTN TV believes in Effective Communication which is the process of exchanging ideas, thoughts, opinions, knowledge, and data so that the message is received and understood with clarity and purpose. When we communicate effectively, both the sender and receiver feel satisfied. ">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="<?=base_url()?>/public/assets/img/gtn.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -35,14 +35,15 @@
         <div class="row gx-5 py-3 align-items-center">
             <div class="col-lg-3">
                 <div class="d-flex align-items-center justify-content-start">
-                <a href="tel:+254725737228"><i class="bi bi-phone-vibrate fs-1 text-primary me-2"></i> </a>
-                   <h3 class="mb-0"> 0725737228</h3>
+                   <a href="tel:+254725737228"><i class="bi bi-phone-vibrate fs-1 text-primary me-2"></i> </a>
+                    <h3 class="mb-0"> 0725737228</h3>
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="d-flex align-items-center justify-content-center">
                     <a href="index.html" class="navbar-brand ms-lg-5">
-                    <img src="<?=base_url()?>/public/assets/img/gtn.png" height="50" width="">
+                      <img src="<?=base_url()?>/public/assets/img/gtn.png" height="50" width="">
+
                     </a>
                 </div>
             </div>
@@ -69,17 +70,16 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav mx-auto py-0">
-                <a href="<?=base_url('')?>" class="nav-item nav-link">Home</a>
-                <a href="<?=base_url('gtntv_news')?>" class="nav-item nav-link">NEWS</a>
-                <a href="<?=base_url('gtntv_shows')?>" class="nav-item nav-link">TV SHOWS</a>
-                <a href="#" class="nav-item nav-link">SPORTS</a>
+                <a href="#" class="nav-item nav-link active">Home</a>
+                <a href="<?=base_url('gtntv_news')?>" class="nav-item nav-link">News</a>
+                <a href="<?=base_url('gtntv_shows')?>" class="nav-item nav-link">Tv shows</a>
+                <a href="#" class="nav-item nav-link">Sports</a>
              
-                <a href="#" class="nav-item nav-link active">Contact</a>
+                <a href="<?=base_url('contact_us')?>" class="nav-item nav-link">Contact</a>
             </div>
         </div>
     </nav>
     <!-- Navbar End -->
-
 
     <!-- Hero Start -->
     <div class="container-fluid bg-primary py-2 bg-hero mb-5">

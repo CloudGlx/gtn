@@ -1,3 +1,6 @@
+<?php
+$day= date('N');
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,11 +8,11 @@
     <meta charset="utf-8">
     <title>GTN tv</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free HTML Templates" name="keywords">
-    <meta content="Free HTML Templates" name="description">
+    <meta content="GTN TV - Home of gifts and talents" name="gtntv,tv,othayatv,livetv,tvstream,gtntv kenya, gtnkenya, best kenyan tv, best kikuyu tv, tv of talents, home of gifts, home of talents">
+    <meta content="GTN TV - Home of gifts and talents" name="GTN TV believes in Effective Communication which is the process of exchanging ideas, thoughts, opinions, knowledge, and data so that the message is received and understood with clarity and purpose. When we communicate effectively, both the sender and receiver feel satisfied. ">
 
     <!-- Favicon -->
-    <link href="<?=base_url()?>/public/assets/img/favicon.ico" rel="icon">
+    <link href="<?=base_url()?>/public/assets/img/gtn.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -102,27 +105,117 @@
          
         </div>
     </div>
+
+
+
+
+
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6">
+                    <div class="mb-3">
+                        <h6 class="text-primary text-uppercase">Todays Prorammes</h6>
+                       
+                    </div>
+                    <p class="mb-4"> Enjoy our tv shows today</p>
+                </div>
+
+                <?php if ($day==1): ?>
+   
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item bg-light text-center p-4">
+                    <a href="https://www.youtube.com/@gtntv2318" target="_blank">   <img class="display-1 text-primary mb-0" src="<?=base_url()?>/public/assets/img/murata.png" height="200" width="350">   </a> 
+                    
+                        <p class="mb-0">MURATA SHOW</p>
+                        <p class="mb-0">MONDAY 8:00 PM </p>
+                      
+                    </div>
+                </div>
+
+     <?php elseif($day==2): ?>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item bg-light text-center p-4">
+                    <a href="https://www.youtube.com/@gtntv2318" target="_blank">  <img src="<?=base_url()?>/public/assets/img/tue.png" height="200" width="350">   </a> 
+                 
+                    <p class="mb-0">WONJORIA NA UTHUNDURI</p>
+                    <p class="mb-0">TUESDAY 10:00 PM </p>
+                    </div>
+                </div>
+
+    <?php elseif($day==3): ?>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item bg-light text-center p-4">
+                    <a href="https://www.youtube.com/@gtntv2318" target="_blank">  <img src="<?=base_url()?>/public/assets/img/wen.png" height="200" width="350">   </a>
+                    <p class="mb-0">THE MELODY SHOW</p>
+                    <p class="mb-0">WEDNESDAY 10:00 PM </p>
+                    </div>
+                </div>
+
+ <?php elseif($day==5): ?>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item bg-light text-center p-4">
+                    <a href="https://www.youtube.com/@gtntv2318" target="_blank">  <img src="<?=base_url()?>/public/assets/img/fri.png" height="200" width="350">   </a> 
+                    <p class="mb-0">THE HOT SEAT</p>
+                    <p class="mb-0">FRIDAY 8:00 PM </p>
+                    </div>
+                </div>
+
+
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item bg-light text-center p-4">
+                    <a href="https://www.youtube.com/@gtntv2318" target="_blank">  <img src="<?=base_url()?>/public/assets/img/mugithi.png" height="200" width="350">   </a> 
+                    <p class="mb-0">KWIREKERERIA FRIDAY</p>
+                    <p class="mb-0">FRIDAY 10:00 PM </p>
+                    </div>
+                </div>
+
+ <?php elseif($day==6): ?>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item bg-light text-center p-3">
+                    <a href="https://www.youtube.com/@gtntv2318" target="_blank">  <img src="<?=base_url()?>/public/assets/img/sat.png" height="200" width="350">   </a> 
+                    <p class="mb-0">MIDUNDO VIWANJANI</p>
+                    <p class="mb-0">SATURDAY 3:00PM - 5:00PM </p>
+                    </div>
+                </div>
+
+
+ <?php elseif($day==7): ?>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item bg-light text-center p-3">
+                    <a href="https://www.youtube.com/@gtntv2318" target="_blank">  <img src="<?=base_url()?>/public/assets/img/sunday.png" height="200" width="350">   </a> 
+                    <p class="mb-0">ARISE</p>
+                    <p class="mb-0">SUNDAYS 9:00 AM </p>
+                    </div>
+                </div>
+
+<?php endif ?>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item bg-light text-center p-3">
+                    <a href="https://www.youtube.com/@gtntv2318" target="_blank">  <img src="<?=base_url()?>/public/assets/img/news.png" height="200" width="350">   </a> 
+                    <p class="mb-0">GTN SAA MOJA</p>
+                    <p class="mb-0">GTN  NEWS</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
     <!-- Carousel End -->
 
-
-  
     <!-- Banner Start -->
-
- 
-
-
     <!-- Facts Start -->
-    
-
-  
-
 
     <!-- Features Start -->
-
-
-
-
-    
 
     <?= $this->include('layouts/footer') ?>
     

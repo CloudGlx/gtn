@@ -6,11 +6,12 @@
     <meta charset="utf-8">
     <title>GTN tv</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free HTML Templates" name="keywords">
-    <meta content="Free HTML Templates" name="description">
+    <meta content="GTN TV - Home of gifts and talents" name="gtntv,tv,othayatv,livetv,tvstream,gtntv kenya, gtnkenya, best kenyan tv, best kikuyu tv, tv of talents, home of gifts, home of talents">
+    <meta content="GTN TV - Home of gifts and talents" name="GTN TV believes in Effective Communication which is the process of exchanging ideas, thoughts, opinions, knowledge, and data so that the message is received and understood with clarity and purpose. When we communicate effectively, both the sender and receiver feel satisfied. ">
+
 
     <!-- Favicon -->
-    <link href="<?=base_url()?>/public/assets/img/favicon.ico" rel="icon">
+    <link href="<?=base_url()?>/public/assets/img/gtn.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -105,52 +106,52 @@
                 <div class="row g-5">
                     <div class="col-md-6">
                         <div class="blog-item position-relative overflow-hidden">
-                            <img class="img-fluid" src="https://scontent.fnuu1-1.fna.fbcdn.net/v/t39.30808-6/332863930_1561557077662279_4117255809451980396_n.jpg?stp=dst-jpg_p180x540&_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGKnMFOEArmJF28GHYj6nXs94ExfizN3cv3gTF-LM3dyxGtRjB9Wj2lmdcZHpsdInz1Xgn0oBFuDyn_wkztdXmR&_nc_ohc=ve25mU7agswAX8kW9vg&_nc_zt=23&_nc_ht=scontent.fnuu1-1.fna&oh=00_AfCdr6PeLuXZ_V0lrImX_LIM-FtoHWEPFvvvBWIp57AGQg&oe=640CAC5D" alt="">
+                            <img class="img-fluid" src="https://scontent.fnbo13-1.fna.fbcdn.net/v/t39.30808-6/336878670_690623182752666_7478091820960131945_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeFqRV1w99rYxpHaygPx5bGlLwLnd1C9j-0vAud3UL2P7bsRHA8k6xGUbYPrSHpOYmGPhwa_TdoYTEBiMrj3fwrA&_nc_ohc=5E9eam5btIkAX8OH3VH&_nc_zt=23&_nc_ht=scontent.fnbo13-1.fna&oh=00_AfAC1b21LuebtoGf_J0xzKCoz5iUUmhoEk7r2j-7pvXq0Q&oe=6421E520" alt="">
                             <a class="blog-overlay" href="">
-                                <h4 class="text-white">Four people in kenya die every hour..</h4>
+                                <h4 class="text-white">Kenyans urged to embrace rice, potatoes, and other food substitutes</h4>
+                                <span class="text-white fw-bold">March 23, 2023</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="blog-item position-relative overflow-hidden">
+                            <img class="img-fluid" src="https://scontent.fnbo13-1.fna.fbcdn.net/v/t39.30808-6/336900166_135952326090447_8468201867420345448_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGL-qkY6znAeKOI6ejaLNQhB-36Zp98muAH7fpmn3ya4PlTAQBTRhCG6wajA_RABafVzKMyoZv-aEItmHJeSJrj&_nc_ohc=zds54M_agAMAX_rmkIk&_nc_zt=23&_nc_ht=scontent.fnbo13-1.fna&oh=00_AfA1LOcg_PFNXhwBgf479E3jUjBrjGjEzqMiUJ7Sl5fbfQ&oe=6421E971" alt="">
+                            <a class="blog-overlay" href="">
+                                <h4 class="text-white">Public Universities are up for sale abroad KEMRI is up for sale</h4>
+                                <span class="text-white fw-bold">March 23, 2023</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="blog-item position-relative overflow-hidden">
+                            <img class="img-fluid" src="https://scontent.fnuu1-1.fna.fbcdn.net/v/t39.30808-6/338154572_554129313452737_5264473595531670594_n.jpg?stp=dst-jpg_p180x540&_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGGn-w_N3IVYG-BBPePERp9GdkL8dVebWgZ2Qvx1V5taHqnZJPKIakXzeZAXUqHztLbt_dGJYXZ8VHnY6H-UvH9&_nc_ohc=-zWVFaF-uLMAX_Cicza&_nc_zt=23&_nc_ht=scontent.fnuu1-1.fna&oh=00_AfDL35fxAnRxBjOueEY6l2F3Mscj3jZ_NnKCkEWSItNLOg&oe=64287270" alt="">
+                            <a class="blog-overlay" href="">
+                                <h4 class="text-white">Three Nyeri new CECMs who were appointed by Nyeri Governor H.E</h4>
                                 <span class="text-white fw-bold">March 07, 2023</span>
                             </a>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="blog-item position-relative overflow-hidden">
-                            <img class="img-fluid" src="https://scontent.fnuu1-1.fna.fbcdn.net/v/t39.30808-6/332788526_603125034635314_6634472090463743766_n.jpg?stp=dst-jpg_p320x320&_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGaZVq_lOnq67K3jn_Edu6TCc1s_gNVNNoJzWz-A1U02nVt8FqlcXN6l5HJJjiqgpBYzpdzI6BObzB5bgg7Ifqp&_nc_ohc=5-jewPLjrs8AX-lG35f&_nc_zt=23&_nc_ht=scontent.fnuu1-1.fna&oh=00_AfC7tHGeSqaEzT5jzuzmoCcIrrFu9urhyf_6GLQx8-tdKw&oe=640C4845" alt="">
+                            <img class="img-fluid" src="https://scontent.fnbo13-1.fna.fbcdn.net/v/t39.30808-6/336893012_911852533352064_5974546970814211920_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeFck1tiPABSWr3tNi3R05j6wfS0j50SO4jB9LSPnRI7iJgPKpvuBcM3ixPzVnP0ng8dnNXsGrMn9eLJroWJE8o7&_nc_ohc=Q6XK7g0P5FcAX-GJkHc&_nc_zt=23&_nc_ht=scontent.fnbo13-1.fna&oh=00_AfDd9Hy2idojO8oE_GKpQaqcTH9Ob5B5FgDPF6qCW0COAg&oe=6421EE69" alt="">
                             <a class="blog-overlay" href="">
-                                <h4 class="text-white">Scores of pupils indured after school bus..</h4>
-                                <span class="text-white fw-bold">March 07, 2023</span>
+                                <h4 class="text-white">On affordable housing, 46,027 housing units..</h4>
+                                 <span class="text-white fw-bold">March 23, 2023</span>
                             </a>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="blog-item position-relative overflow-hidden">
-                            <img class="img-fluid" src="https://scontent.fnuu1-1.fna.fbcdn.net/v/t39.30808-6/333631616_1177342892966203_2605105690046386392_n.jpg?stp=dst-jpg_p320x320&_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeEBOSNzedOdzkkph-xf6Gti4wpcCFWjFcLjClwIVaMVws7SgJacxJmfW4ALplgss01PH3QLIGi6qclilgdzqUME&_nc_ohc=mvlkSOqDu1EAX9BJkZa&_nc_zt=23&_nc_ht=scontent.fnuu1-1.fna&oh=00_AfD7dpdEZvVUB1h6vW22DWcjYp5qbMe46WfKjon7gXUZ-A&oe=640C6822" alt="">
-                            <a class="blog-overlay" href="">
-                                <h4 class="text-white">Former CS Dr Fred Matiang'i now faces..</h4>
-                                <span class="text-white fw-bold">March 07, 2023</span>
+                            <img class="img-fluid" src="" alt="">
+                            <a class="blog-overlay" href="https://scontent.fnbo13-1.fna.fbcdn.net/v/t39.30808-6/336801112_236670302154020_8049615139740150839_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeG-MoruewUKWgOgUBFItfCoGNbLmw7lhxcY1subDuWHF74PsYj4PLeLuGnMW1b1tKgxTuA3Cn7R7VJN8LINLHI-&_nc_ohc=k7XzXscxN5cAX_eMzDb&_nc_zt=23&_nc_ht=scontent.fnbo13-1.fna&oh=00_AfCk2oLDCAskJHXKwyQK4e1I1DspOy1CmeP9wNX88n7E1A&oe=642065BB">
+                                <h4 class="text-white">The Government is committed to supplying more than 300,000</h4>
+                                 <span class="text-white fw-bold">March 23, 2023</span>
                             </a>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="blog-item position-relative overflow-hidden">
-                            <img class="img-fluid" src="https://scontent.fnuu1-1.fna.fbcdn.net/v/t39.30808-6/334214206_929437751422215_6384430231113177111_n.jpg?stp=dst-jpg_p320x320&_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeEoJ2UBo2OBvdAda8unbCv01FYqjBeSfG7UViqMF5J8bgs0TlLE9pRx5_moAg0IDgsk-Gx9PJVuze9R6zP-9aCu&_nc_ohc=ahEp-MaiKbEAX9thYcx&_nc_zt=23&_nc_ht=scontent.fnuu1-1.fna&oh=00_AfCQCG5LGYmQ_3DzZQMthIRMt9EQDnADlmMaDANB5ElaRQ&oe=640C3DFE" alt="">
-                            <a class="blog-overlay" href="">
-                                <h4 class="text-white">Four country commissioners..</h4>
-                                 <span class="text-white fw-bold">March 07, 2023</span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="blog-item position-relative overflow-hidden">
-                            <img class="img-fluid" src="https://scontent.fnuu1-1.fna.fbcdn.net/v/t39.30808-6/333669188_564824938748396_8618524007899449716_n.jpg?stp=dst-jpg_p320x320&_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeF1J5hAij-kr85ZLgWjQNc_hAjLsA-g5V6ECMuwD6DlXi9u1h6u3yPiL0T8lnHH3mGXfYreKQHdp4O8UpHgDpjs&_nc_ohc=zcZp_7wBeUkAX94T8Sk&_nc_zt=23&_nc_ht=scontent.fnuu1-1.fna&oh=00_AfCGEf2_daCEaEiBkbcmcUEXSZzZY0WbCrVXF7kShU-v3g&oe=640BD657" alt="">
-                            <a class="blog-overlay" href="">
-                                <h4 class="text-white">We fear That they are trying to..</h4>
-                                 <span class="text-white fw-bold">March 07, 2023</span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="blog-item position-relative overflow-hidden">
-                            <img class="img-fluid" src="https://scontent.fnuu1-1.fna.fbcdn.net/v/t39.30808-6/332908888_5911990048855416_5434367593486109149_n.jpg?stp=dst-jpg_p320x320&_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeEDz4Se9FMa_jft0pMFGCvIYMwhpRETla9gzCGlEROVrziSdkm_4ezstbqqiDX7nf082ReQDFI-5pPpVWmYzUI5&_nc_ohc=tPTP44km0XIAX-T3KJg&_nc_zt=23&_nc_ht=scontent.fnuu1-1.fna&oh=00_AfA7EtNPhRrjRqu56f75opXk2FW6L-X0y69U4qRiUfUVLg&oe=640CC62D" alt="">
+                            <img class="img-fluid" src="https://scontent.fnbo13-1.fna.fbcdn.net/v/t39.30808-6/336890828_761423695633708_7995291156537374685_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeEzh6WDnZgSq9IlnIow-4w7HGX0Adxi_2AcZfQB3GL_YLXhWwoip1gz2yI2aH5dRqW8KLj9Nnbw8UA6E19VMAM4&_nc_ohc=xsbYqapjqSgAX-6ENke&_nc_zt=23&_nc_ht=scontent.fnbo13-1.fna&oh=00_AfDr7aOUwwiVO-w6Qt2B8dOz8iyXG-9ccoG-Beiuk3MSfQ&oe=6420636E" alt="">
                             <a class="blog-overlay" href="">
                                 <h4 class="text-white">Education CS ezekiel Machogu orders for the..</h4>
                                  <span class="text-white fw-bold">March 07, 2023</span>
@@ -231,8 +232,8 @@
                 <div class="mb-5">
                     <h2 class="mb-4">Categories</h2>
                     <div class="d-flex flex-column justify-content-start bg-primary p-4">
-                        <a class="fs-5 fw-bold text-white mb-2" href="#"><i class="bi bi-arrow-right me-2"></i>Latest News</a>
-                        <a class="fs-5 fw-bold text-white mb-2" href="#"><i class="bi bi-arrow-right me-2"></i>Politics</a>
+                        <a class="fs-5 fw-bold text-white mb-2" href="https://web.facebook.com/gtntvkenya"><i class="bi bi-arrow-right me-2"></i>Latest News</a>
+                        <a class="fs-5 fw-bold text-white mb-2" href="https://web.facebook.com/watch/?v=908007596988358"><i class="bi bi-arrow-right me-2"></i>Politics</a>
                         <a class="fs-5 fw-bold text-white mb-2" href="#"><i class="bi bi-arrow-right me-2"></i>Sports</a>
                         <a class="fs-5 fw-bold text-white mb-2" href="#"><i class="bi bi-arrow-right me-2"></i>Entertainment </a>
                       
