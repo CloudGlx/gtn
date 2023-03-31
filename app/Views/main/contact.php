@@ -62,7 +62,7 @@
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-primary navbar-dark shadow-sm py-3 py-lg-0 px-3 px-lg-5">
-        <a href="index.html" class="navbar-brand d-flex d-lg-none">
+        <a href="#" class="navbar-brand d-flex d-lg-none">
         <img src="<?=base_url()?>/public/assets/img/gtn1.png" height="50" width="">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -70,12 +70,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav mx-auto py-0">
-                <a href="#" class="nav-item nav-link active">Home</a>
+                <a href="<?=base_url()?>" class="nav-item nav-link ">Home</a>
                 <a href="<?=base_url('gtntv_news')?>" class="nav-item nav-link">News</a>
                 <a href="<?=base_url('gtntv_shows')?>" class="nav-item nav-link">Tv shows</a>
                 <a href="#" class="nav-item nav-link">Sports</a>
              
-                <a href="<?=base_url('contact_us')?>" class="nav-item nav-link">Contact</a>
+                <a href="<?=base_url('contact_us')?>" class="nav-item nav-link active">Contact</a>
             </div>
         </div>
     </nav>

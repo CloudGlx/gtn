@@ -43,7 +43,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="d-flex align-items-center justify-content-center">
-                    <a href="index.html" class="navbar-brand ms-lg-5">
+                    <a href="#" class="navbar-brand ms-lg-5">
                       <img src="<?=base_url()?>/public/assets/img/gtn.png" height="50" width="">
 
                     </a>
