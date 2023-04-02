@@ -32,12 +32,20 @@ $routes->set404Override();
 $routes->get('/', 'Home::index');
 
 
-
+//wEBSITE ROUTES
 $routes->add('contact_us','Home::contactusView');
 $routes->add('contacts/us','Home::contactusLogic');
 $routes->add('gtntv/news_logic','Home::newslogic');
 $routes->add('gtntv_shows','Home::tvshows');
 $routes->add('gtntv_news','Home::gtnnews');
+//App routes
+$routes->add('app_contactus','Home::app_contact');
+$routes->add('app_contactsLogic','Home::contactusLogic');
+$routes->add('app/gtntv/news_logic','GtnApp::newslogic');
+$routes->add('app_shows','Home::app_tvshows');
+$routes->add('app_news','Home::app_news');
+$routes->add('app_home','Home::app_home');
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing

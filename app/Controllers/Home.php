@@ -26,4 +26,22 @@ class Home extends BaseController
  public function gtnnews(){
     return view('main/news');
  }
+
+ public function app_home(){
+    return view ('main/app_home');
+ }
+
+ public function app_news(){
+    return view ('main/app_news');
+ }
+
+ public function app_tvshows(){
+    return view ('main/app_tvshows');
+ }
+
+ public function app_contact(){
+    return view ('main/app_contact');
+ }
+
+
 }
