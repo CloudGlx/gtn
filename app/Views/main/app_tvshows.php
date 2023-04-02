@@ -77,8 +77,8 @@
             <div class="row justify-content-start">
                 <div class="col-lg-8 text-center text-lg-start">
                     <h1 class="display-1 text-white mb-md-4">Tv shows</h1>
-                    <a href="<?=base_url()?>" class="btn btn-primary py-md-3 px-md-5 me-3">Home</a>
-                    <a href="https://www.youtube.com/@gtntv2318" class="btn btn-secondary py-md-3 px-md-5">Youtube</a>
+                    <a href="<?=base_url('app_home')?>" class="btn btn-primary py-md-3 px-md-5 me-3">Home</a>
+                    <a href="https://m.youtube.com/@gtntv2318" class="btn btn-secondary py-md-3 px-md-5">Youtube</a>
                 </div>
             </div>
         </div>
@@ -96,11 +96,11 @@
                        
                     </div>
                     <p class="mb-4"> Enjoy our tv shows</p>
-                    <a href="<?=base_url('contact_us')?>" class="btn btn-primary py-md-3 px-md-5">Contact Us</a>
+                    <a href="<?=base_url('app_contactus')?>" class="btn btn-primary py-md-3 px-md-5">Contact Us</a>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="service-item bg-light text-center p-4">
-                    <a href="https://www.youtube.com/@gtntv2318" target="_blank">   <img class="display-1 text-primary mb-0" src="<?=base_url()?>/public/assets/img/murata.png" height="200" width="350">   </a> 
+                    <a href="https://m.youtube.com/@gtntv2318" target="_blank">   <img class="display-1 text-primary mb-0" src="<?=base_url()?>/public/assets/img/murata.png" height="200" width="350">   </a> 
                     
                         <p class="mb-0">MURATA SHOW</p>
                         <p class="mb-0">MONDAY 8:00 PM </p>
@@ -109,7 +109,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="service-item bg-light text-center p-4">
-                    <a href="https://www.youtube.com/@gtntv2318" target="_blank">  <img src="<?=base_url()?>/public/assets/img/tue.png" height="200" width="350">   </a> 
+                    <a href="https://m.youtube.com/@gtntv2318" target="_blank">  <img src="<?=base_url()?>/public/assets/img/tue.png" height="200" width="350">   </a> 
                  
                     <p class="mb-0">WONJORIA NA UTHUNDURI</p>
                     <p class="mb-0">TUESDAY 10:00 PM </p>
@@ -117,21 +117,21 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="service-item bg-light text-center p-4">
-                    <a href="https://www.youtube.com/@gtntv2318" target="_blank">  <img src="<?=base_url()?>/public/assets/img/wen.png" height="200" width="350">   </a>
+                    <a href="https://m.youtube.com/@gtntv2318" target="_blank">  <img src="<?=base_url()?>/public/assets/img/wen.png" height="200" width="350">   </a>
                     <p class="mb-0">THE MELODY SHOW</p>
                     <p class="mb-0">WEDNESDAY 10:00 PM </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="service-item bg-light text-center p-4">
-                    <a href="https://www.youtube.com/@gtntv2318" target="_blank">  <img src="<?=base_url()?>/public/assets/img/fri.png" height="200" width="350">   </a> 
+                    <a href="https://m.youtube.com/@gtntv2318" target="_blank">  <img src="<?=base_url()?>/public/assets/img/fri.png" height="200" width="350">   </a> 
                     <p class="mb-0">THE HOT SEAT</p>
                     <p class="mb-0">FRIDAY 8:00 PM </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="service-item bg-light text-center p-4">
-                    <a href="https://www.youtube.com/@gtntv2318" target="_blank">  <img src="<?=base_url()?>/public/assets/img/mugithi.png" height="200" width="350">   </a> 
+                    <a href="https://m.youtube.com/@gtntv2318" target="_blank">  <img src="<?=base_url()?>/public/assets/img/mugithi.png" height="200" width="350">   </a> 
                     <p class="mb-0">KWIREKERERIA FRIDAY</p>
                     <p class="mb-0">FRIDAY 10:00 PM </p>
                     </div>
@@ -141,21 +141,21 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="service-item bg-light text-center p-3">
-                    <a href="https://www.youtube.com/@gtntv2318" target="_blank">  <img src="<?=base_url()?>/public/assets/img/sat.png" height="200" width="350">   </a> 
+                    <a href="https://m.youtube.com/@gtntv2318" target="_blank">  <img src="<?=base_url()?>/public/assets/img/sat.png" height="200" width="350">   </a> 
                     <p class="mb-0">MIDUNDO VIWANJANI</p>
                     <p class="mb-0">SATURDAY 3:00PM - 5:00PM </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="service-item bg-light text-center p-3">
-                    <a href="https://www.youtube.com/@gtntv2318" target="_blank">  <img src="<?=base_url()?>/public/assets/img/sunday.png" height="200" width="350">   </a> 
+                    <a href="https://m.youtube.com/@gtntv2318" target="_blank">  <img src="<?=base_url()?>/public/assets/img/sunday.png" height="200" width="350">   </a> 
                     <p class="mb-0">ARISE</p>
                     <p class="mb-0">SUNDAYS 9:00 AM </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="service-item bg-light text-center p-3">
-                    <a href="https://www.youtube.com/@gtntv2318" target="_blank">  <img src="<?=base_url()?>/public/assets/img/news.png" height="200" width="350">   </a> 
+                    <a href="https://m.youtube.com/@gtntv2318" target="_blank">  <img src="<?=base_url()?>/public/assets/img/news.png" height="200" width="350">   </a> 
                     <p class="mb-0">GTN SAA MOJA</p>
                     <p class="mb-0">GTN  NEWS</p>
                     </div>

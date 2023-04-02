@@ -76,7 +76,7 @@
             <div class="row justify-content-start">
                 <div class="col-lg-8 text-center text-lg-start">
                     <h1 class="display-1 text-white mb-md-4">Contact Us</h1>
-                    <a href="<?=base_url('')?>" class="btn btn-primary py-md-3 px-md-5 me-3">Home</a>
+                    <a href="<?=base_url('app_home')?>" class="btn btn-primary py-md-3 px-md-5 me-3">Home</a>
                     <a href="#" class="btn btn-secondary py-md-3 px-md-5">Contact Us</a>
                 </div>
             </div>
