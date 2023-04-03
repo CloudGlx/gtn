@@ -44,4 +44,10 @@ class Home extends BaseController
  }
 
 
+ public function app_download(){
+   $filepath='public/GtnTv.apk';
+   return $this->response->download($filepath, null);
+}
+
+
 }

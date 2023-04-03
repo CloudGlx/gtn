@@ -45,7 +45,7 @@ $routes->add('app/gtntv/news_logic','GtnApp::newslogic');
 $routes->add('app_shows','Home::app_tvshows');
 $routes->add('app_news','Home::app_news');
 $routes->add('app_home','Home::app_home');
-
+$routes->add('app_download','Home::app_download');
 /*
  * --------------------------------------------------------------------
  * Additional Routing

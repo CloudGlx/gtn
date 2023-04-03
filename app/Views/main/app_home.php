@@ -1,5 +1,6 @@
 <?php
 $day= date('N');
+echo $day;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -105,7 +106,7 @@ $day= date('N');
                     <p class="mb-4"> Enjoy our tv shows today</p>
                 </div>
 
-                <?php if ($day==1): ?>
+                <?php if ($day==1):?>
    
                 <div class="col-lg-4 col-md-6">
                     <div class="service-item bg-light text-center p-4">

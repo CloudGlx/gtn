@@ -1,0 +1,50 @@
+CRITICAL - 2023-04-03 05:55:10 --> File not found: "http://192.168.6.125/gtn/public/test.txt"
+in SYSTEMPATH/Files/File.php on line 47.
+ 1 SYSTEMPATH/Files/File.php(47): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('http://192.168.6.125/gtn/public/test.txt')
+ 2 SYSTEMPATH/HTTP/DownloadResponse.php(97): CodeIgniter\Files\File->__construct('http://192.168.6.125/gtn/public/test.txt', true)
+ 3 SYSTEMPATH/HTTP/ResponseTrait.php(794): CodeIgniter\HTTP\DownloadResponse->setFilePath('http://192.168.6.125/gtn/public/test.txt')
+ 4 APPPATH/Controllers/Home.php(49): CodeIgniter\HTTP\Response->download('test.txt', null)
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->app_download()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 05:56:19 --> File not found: "http://192.168.6.125/gtn/public/test.txt"
+in SYSTEMPATH/Files/File.php on line 47.
+ 1 SYSTEMPATH/Files/File.php(47): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('http://192.168.6.125/gtn/public/test.txt')
+ 2 SYSTEMPATH/HTTP/DownloadResponse.php(97): CodeIgniter\Files\File->__construct('http://192.168.6.125/gtn/public/test.txt', true)
+ 3 SYSTEMPATH/HTTP/ResponseTrait.php(794): CodeIgniter\HTTP\DownloadResponse->setFilePath('http://192.168.6.125/gtn/public/test.txt')
+ 4 APPPATH/Controllers/Home.php(49): CodeIgniter\HTTP\Response->download('test.txt', null)
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->app_download()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 05:56:54 --> File not found: "http://192.168.6.125/gtn/public/file.txt"
+in SYSTEMPATH/Files/File.php on line 47.
+ 1 SYSTEMPATH/Files/File.php(47): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('http://192.168.6.125/gtn/public/file.txt')
+ 2 SYSTEMPATH/HTTP/DownloadResponse.php(97): CodeIgniter\Files\File->__construct('http://192.168.6.125/gtn/public/file.txt', true)
+ 3 SYSTEMPATH/HTTP/ResponseTrait.php(794): CodeIgniter\HTTP\DownloadResponse->setFilePath('http://192.168.6.125/gtn/public/file.txt')
+ 4 APPPATH/Controllers/Home.php(49): CodeIgniter\HTTP\Response->download('file.txt', null)
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->app_download()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 05:56:56 --> File not found: "http://192.168.6.125/gtn/public/file.txt"
+in SYSTEMPATH/Files/File.php on line 47.
+ 1 SYSTEMPATH/Files/File.php(47): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('http://192.168.6.125/gtn/public/file.txt')
+ 2 SYSTEMPATH/HTTP/DownloadResponse.php(97): CodeIgniter\Files\File->__construct('http://192.168.6.125/gtn/public/file.txt', true)
+ 3 SYSTEMPATH/HTTP/ResponseTrait.php(794): CodeIgniter\HTTP\DownloadResponse->setFilePath('http://192.168.6.125/gtn/public/file.txt')
+ 4 APPPATH/Controllers/Home.php(49): CodeIgniter\HTTP\Response->download('file.txt', null)
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->app_download()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 05:57:43 --> File not found: "/public/file.txt"
+in SYSTEMPATH/Files/File.php on line 47.
+ 1 SYSTEMPATH/Files/File.php(47): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('/public/file.txt')
+ 2 SYSTEMPATH/HTTP/DownloadResponse.php(97): CodeIgniter\Files\File->__construct('/public/file.txt', true)
+ 3 SYSTEMPATH/HTTP/ResponseTrait.php(794): CodeIgniter\HTTP\DownloadResponse->setFilePath('/public/file.txt')
+ 4 APPPATH/Controllers/Home.php(49): CodeIgniter\HTTP\Response->download('file.txt', null)
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->app_download()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
