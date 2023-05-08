@@ -106,10 +106,6 @@ $day= date('N');
         </div>
     </div>
 
-
-
-
-
     <div class="container-fluid py-5">
         <div class="container">
             <div class="row g-5">
@@ -219,13 +215,7 @@ $day= date('N');
 
     <?= $this->include('layouts/footer') ?>
     
-
-
-   
-
-
     <!-- Footer End -->
-
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-secondary py-3 fs-4 back-to-top"><i class="bi bi-arrow-up"></i></a>
