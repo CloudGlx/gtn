@@ -123,74 +123,71 @@ $day= date('N');
 
                 <?php if ($day==1): ?>
    
-                <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6">
                     <div class="service-item bg-light text-center p-4">
-                    <a href="https://www.youtube.com/@gtntv2318" target="_blank">   <img class="display-1 text-primary mb-0" src="<?=base_url()?>/public/assets/img/murata.png" height="200" width="350">   </a> 
+                    <a href="https://www.youtube.com/@gtntv2318" target="_blank">   <img class="display-1 text-primary mb-0" src="<?=base_url()?>/public/assets/img/shows/ime.jpg" height="250" width="200">   </a> 
                     
-                        <p class="mb-0">MURATA SHOW</p>
-                        <p class="mb-0">MONDAY 8:00 PM </p>
+                        <p class="mb-0">Ime Ria Rucinii</p>
+                        <p class="mb-0">MON-FRI 6-9 AM</p>
                       
                     </div>
                 </div>
 
      <?php elseif($day==2): ?>
-
-                <div class="col-lg-4 col-md-6">
+              <div class="col-lg-4 col-md-6">
                     <div class="service-item bg-light text-center p-4">
-                    <a href="https://www.youtube.com/@gtntv2318" target="_blank">  <img src="<?=base_url()?>/public/assets/img/tue.png" height="200" width="350">   </a> 
+                    <a href="https://www.youtube.com/@gtntv2318" target="_blank">  <img src="<?=base_url()?>/public/assets/img/shows/wira.jpg" height="250" width="200">   </a> 
                  
-                    <p class="mb-0">WONJORIA NA UTHUNDURI</p>
-                    <p class="mb-0">TUESDAY 10:00 PM </p>
+                    <p class="mb-0">WIRA NA UTHUNDURI</p>
+                    <p class="mb-0">TUESDAY 07:30 PM </p>
                     </div>
                 </div>
 
-    <?php elseif($day==3): ?>
+    <?php elseif($day==4): ?>
 
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item bg-light text-center p-4">
-                    <a href="https://www.youtube.com/@gtntv2318" target="_blank">  <img src="<?=base_url()?>/public/assets/img/wen.png" height="200" width="350">   </a>
-                    <p class="mb-0">THE MELODY SHOW</p>
-                    <p class="mb-0">WEDNESDAY 10:00 PM </p>
-                    </div>
-                </div>
+           
+
+
 
  <?php elseif($day==5): ?>
 
-                <div class="col-lg-4 col-md-6">
+    <div class="col-lg-4 col-md-6">
                     <div class="service-item bg-light text-center p-4">
-                    <a href="https://www.youtube.com/@gtntv2318" target="_blank">  <img src="<?=base_url()?>/public/assets/img/fri.png" height="200" width="350">   </a> 
-                    <p class="mb-0">THE HOT SEAT</p>
-                    <p class="mb-0">FRIDAY 8:00 PM </p>
+                    <a href="https://www.youtube.com/@gtntv2318" target="_blank">  <img src="<?=base_url()?>/public/assets/img/shows/MURIMI.jpg" height="250" width="200">   </a> 
+                    <p class="mb-0">MURIMI</p>
+                    <p class="mb-0">FRIDAY 7:30 PM </p>
                     </div>
                 </div>
 
 
 
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item bg-light text-center p-4">
-                    <a href="https://www.youtube.com/@gtntv2318" target="_blank">  <img src="<?=base_url()?>/public/assets/img/mugithi.png" height="200" width="350">   </a> 
-                    <p class="mb-0">KWIREKERERIA FRIDAY</p>
-                    <p class="mb-0">FRIDAY 10:00 PM </p>
-                    </div>
-                </div>
 
  <?php elseif($day==6): ?>
 
+              <div class="col-lg-4 col-md-6">
+                    <div class="service-item bg-light text-center p-4">
+                    <a href="https://www.youtube.com/@gtntv2318" target="_blank">  <img src="<?=base_url()?>/public/assets/img/shows/muthigi.jpg" height="250" width="200">   </a>
+                    <p class="mb-0">MUTHIGI WA WATHO </p>
+                    <p class="mb-0">SATURDAY 08:30 PM</p>
+                    </div>
+                </div>
+
                 <div class="col-lg-4 col-md-6">
-                    <div class="service-item bg-light text-center p-3">
-                    <a href="https://www.youtube.com/@gtntv2318" target="_blank">  <img src="<?=base_url()?>/public/assets/img/sat.png" height="200" width="350">   </a> 
-                    <p class="mb-0">MIDUNDO VIWANJANI</p>
-                    <p class="mb-0">SATURDAY 3:00PM - 5:00PM </p>
+                    <div class="service-item bg-light text-center p-4">
+                    <a href="https://www.youtube.com/@gtntv2318" target="_blank">  <img src="<?=base_url()?>/public/assets/img/shows/mwigariko.jpg" height="250" width="200">   </a> 
+                    <p class="mb-0">MWIGARIKO IHAROINI</p>
+                    <p class="mb-0">SATURDAY 2:00 PM </p>
                     </div>
                 </div>
 
 
  <?php elseif($day==7): ?>
-                <div class="col-lg-4 col-md-6">
+           
+    <div class="col-lg-4 col-md-6">
                     <div class="service-item bg-light text-center p-3">
-                    <a href="https://www.youtube.com/@gtntv2318" target="_blank">  <img src="<?=base_url()?>/public/assets/img/sunday.png" height="200" width="350">   </a> 
+                    <a href="https://www.youtube.com/@gtntv2318" target="_blank">  <img src="<?=base_url()?>/public/assets/img/shows/arise.jpg" height="250" width="200">   </a> 
                     <p class="mb-0">ARISE</p>
-                    <p class="mb-0">SUNDAYS 9:00 AM </p>
+                    <p class="mb-0">SUNDAYS 7.00 AM </p>
                     </div>
                 </div>
 
